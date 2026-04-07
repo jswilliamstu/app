@@ -4116,7 +4116,7 @@ arg@^5.0.1:
   resolved "https://registry.yarnpkg.com/arg/-/arg-5.0.1.tgz#eb0c9a8f77786cad2af8ff2b862899842d7b6adb"
   integrity sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==
 
-argparse@^1.0.7:
+argparse@^1.0.7, argparse@~1.0.3:
   version "1.0.10"
   resolved "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz"
   dependencies:
@@ -6154,6 +6154,11 @@ csstype@^3.0.2:
 cuid@^2.1.1:
   version "2.1.8"
   resolved "https://registry.npmjs.org/cuid/-/cuid-2.1.8.tgz"
+
+cy-verify-downloads@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/cy-verify-downloads/-/cy-verify-downloads-0.0.5.tgz#2f9c7da0f5fda125ecef2f19ca2b83b1890d3037"
+  integrity sha512-aRK7VvKG5rmDJK4hjZ27KM2oOOz0cMO7z/j4zX8qCc4ffXZS1XRJkofUY0w5u6MCB/wUsNMs03VuvkeR2tNPoQ==
 
 cyclist@^1.0.1:
   version "1.0.1"
@@ -12335,14 +12340,10 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz"
 
-picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz"
-
-picomatch@^2.2.3:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
-  integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
+picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.2.3:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.2.tgz#5a942915e26b372dc0f0e6753149a16e6b1c5601"
+  integrity sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==
 
 pify@^2.0.0, pify@^2.2.0:
   version "2.3.0"
